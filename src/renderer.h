@@ -6,7 +6,7 @@
 class Renderer
 {
     public:
-        Renderer(int screenHeight, int screenWidth);
+        Renderer(int screenWidth, int screenHeight);
         ~Renderer();
     private:
         SDL_Window *window;

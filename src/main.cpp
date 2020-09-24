@@ -1,6 +1,7 @@
-#include "renderer.h"
+#include "calculator.h"
+#include "calculator.cpp"
 
 int main()
 {
-    Renderer renderer;
+    Calculator calculator;
 }

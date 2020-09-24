@@ -2,7 +2,7 @@
 
 #include "renderer.h"
 
-Renderer::Renderer(int screenHeight, int screenWidth)
+Renderer::Renderer(int screenWidth, int screenHeight)
 {
     window = SDL_CreateWindow("Calculator", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, screenWidth, screenHeight, SDL_WINDOW_SHOWN);
     surface = SDL_GetWindowSurface(window);

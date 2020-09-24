@@ -5,6 +5,8 @@ class Calculator
 {
     public:
         Calculator();
+    private:
+        void startProcess();
 };
 
 #endif
